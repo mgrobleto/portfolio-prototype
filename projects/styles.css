@@ -16,3 +16,41 @@
     color: white;
     justify-content: flex-start;
 }
+
+table, th, td, tbody {
+    font-size: large;
+    background-color: #62aae7;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.project-sectio {
+    max-width: 500px;
+}
+
+td a {
+    color: #f5edff;
+    text-decoration: none;
+}
+
+td a:hover {
+    color: #060f35;
+}
+
+.project-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.repo-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+td img {
+    max-width: 350px;
+    height: auto;
+    border-radius: 5px;
+}
