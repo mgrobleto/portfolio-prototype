@@ -58,6 +58,8 @@ p[class="card-text"] {
     background-color: #021d4a;
     padding: 5%;
     align-items: flex-start;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .card:hover {
@@ -69,3 +71,8 @@ p[class="card-text"] {
     max-width: 400px;
 }
 
+@media screen and (max-width: 992px){
+    .photography-grid {
+        grid-template-columns: auto;
+    }
+}
