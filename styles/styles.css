@@ -1,0 +1,82 @@
+.container-about .header-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+  margin: auto;
+  color: white;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+#about {
+  background-color: #060f35;
+  background-position: center;
+  background-size: cover;
+  height: 95vh;
+  width: 100%;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+/* Anidamiento */
+.container-about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  /* Herencia */
+  /*.header-section {
+        display: flex;
+        width: 100vw;
+        margin: auto;
+        color: white;
+        justify-content: flex-start;
+    }*/
+}
+
+.container-about .img-section {
+  padding-right: 5%;
+}
+
+.container-about .img-section > .profile-image {
+  max-width: 400px;
+  -webkit-box-shadow: 6px 13px 20px -5px rgba(0, 0, 0, 0.46);
+          box-shadow: 6px 13px 20px -5px rgba(0, 0, 0, 0.46);
+}
+
+.container-about .about-text, .container-about p {
+  max-width: 500px;
+  color: #9ba4ce;
+}
+
+.container-about .about-content {
+  padding-bottom: 30px;
+}
+
+.container-about .social-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.container-about .social-links > a {
+  margin: 5px;
+}
+/*# sourceMappingURL=styles.css.map */
